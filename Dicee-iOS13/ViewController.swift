@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
-    @IBOutlet weak var roleButton: UIButton!
+    
+    @IBAction func roleButtonPressed(_ sender: UIButton) {
+        diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceSix")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -42,6 +42,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="roleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWu-Vp-IGs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,7 +53,6 @@
                     <connections>
                         <outlet property="diceImageView1" destination="mAl-4R-B6C" id="q0Y-V1-UKY"/>
                         <outlet property="diceImageView2" destination="uvm-5y-H9T" id="nBJ-9c-Gbj"/>
-                        <outlet property="roleButton" destination="8qN-jL-yJe" id="rrd-tz-hnX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
